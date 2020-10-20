@@ -12,3 +12,6 @@
 
 ## Rebase documentation
 <https://git-scm.com/docs/git-rebase>
+
+## Merge documentation
+<https://git-scm.com/docs/git-merge>
