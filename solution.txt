@@ -1,0 +1,17 @@
+Otworzyć repo: https://github.com/squadack/epg1_git
+Kliknąć "Fork" po prawej stronie.
+Po zrobieniu fork wejść w swojego Gita i stamtąd skopiować link do sklonowania gita.
+git clone https://github.com/s17195/epg1_git
+cd epg1_git
+git checkout -b hw-s17195
+git checkout rebase-me
+git rebase hw-s17195
+git checkout hw-s17195
+git merge rebase-me
+git merge origin/merge-me
+Edycja pliku - usunięcie znaków << == >> po automatycznym mergu
+git add README.md
+git commit -m "Tekst commitu"
+git add solution.txt
+git commit -m "Add solution.txt"
+git push --set-upstream origin hw-s17195
